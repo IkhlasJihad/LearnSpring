@@ -17,12 +17,12 @@ CREATE DATABASE library
 
 -- DROP SCHEMA "simple-lib" ;
 
-CREATE SCHEMA "simple-lib"
+CREATE SCHEMA "simplelib"
     AUTHORIZATION postgres;
 
 -- DROP TABLE "simple-lib".book;
 
-CREATE TABLE "simple-lib".book
+CREATE TABLE "simplelib".book
 (
     id integer NOT NULL,
     name character varying(20) COLLATE pg_catalog."default" NOT NULL,
